@@ -4,6 +4,7 @@ date:           2026-06-01 00:01:00 +0800
 selected:       true
 pub:            "IEEE Geoscience and Remote Sensing Letters (GRSL)"
 pub_date:       "2026"
+cover:          /assets/images/covers/mapclip.jpg
 authors:
   - Zhicheng Wang
   - Yifan Chen
