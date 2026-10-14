@@ -9,7 +9,7 @@ Yifan Chen 的个人主页：https://cyfxlj.github.io
 | 内容 | 文件 |
 | --- | --- |
 | 名字、职位、简介、邮箱、教育/经历/奖项 | `_data/profile.yml` |
-| 照片 | 覆盖 `assets/images/photos/portrait.jpg` |
+| 照片 | 放到 `assets/images/photos/portrait.jpg`，再取消 `_data/profile.yml` 里 `portrait_url` 的注释 |
 | 学校/机构 logo | 放进 `assets/images/badges/`，再在 `_data/profile.yml` 里引用 |
 | 新闻 | `_news/`，一条新闻一个 `.md` 文件 |
 | 论文 | `_publications/<年份>/`，一篇论文一个 `.md` 文件 |

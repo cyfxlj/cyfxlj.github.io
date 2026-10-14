@@ -3,11 +3,11 @@ secondary_name: ""  # 可选：中文名，会以小字显示在英文名后面
 navbar_name: "Yifan's Homepage"
 
 positions:
-- name: "[Your Position, e.g. Ph.D. Student]"
-  logo: /assets/images/badges/placeholder.svg  # 换成学校/机构的 logo（可选）
+- name: "Master's Student"
+  # logo: /assets/images/badges/fudan.png  # 学校 logo（可选）
 
 
-email: "your@email.com"  # TODO: 换成你想公开的邮箱（页面上会显示成 xxx(at)xxx 防爬虫）
+# email: "your@email.com"  # 想公开邮箱就取消注释（页面上会显示成 xxx(at)xxx 防爬虫）
 # cv_link: /assets/files/cv.pdf
 # gscholar: xxxxxxxxxxxx  # Google Scholar 主页链接里 user= 后面那串
 github: cyfxlj
@@ -18,43 +18,49 @@ github: cyfxlj
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I'm a [Your Position] at [Your University], advised by Prof. [Advisor Name].
-    Prior to this, I received my bachelor's degree in [Major] from [University].
+    I'm a third-year master's student at the
+    <a href="https://fit.fudan.edu.cn/" target="_blank">College of Future Information Technology</a>, Fudan University,
+    advised by Prof. <a href="https://fit.fudan.edu.cn/En/Data/View/2988" target="_blank">Feng Wang</a>.
+    Prior to this, I received my bachelor's degree from Ningbo University (Yangming Innovation Class).
+    I have also interned at SenseTime Research (Foundation Model Team, Coding) and Alibaba Taobao & Tmall Group.
   </p>
   <p>
     My research interests include, but are not limited to:
   </p>
   <ul>
-    <li><strong>LLM Post-training:</strong> Reinforcement Learning for LLMs, Reasoning</li>
-    <li><strong>LLM Agents:</strong> Search Agents, Deep Research</li>
-    <li><strong>3D Vision:</strong> Neural Radiance Fields (NeRF), Mesh Reconstruction</li>
+    <li><strong>3D Reconstruction from Radar Imagery:</strong> ISAR Imaging, Neural Radiance Fields, Gaussian Splatting</li>
+    <li><strong>Multimodal Remote Sensing:</strong> Vision-Language Models, Few-Shot Classification</li>
+    <li><strong>Large Language Models:</strong> Code Generation, Post-training, Reinforcement Learning</li>
   </ul>
   <p>
     Feel free to reach out if you are interested in my work or would like to collaborate.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg  # TODO: 用你的照片覆盖这个文件
+# portrait_url: /assets/images/photos/portrait.jpg  # 照片放到这个路径后取消注释
 # portrait_caption: >-
 #   鼠标悬停在照片上时显示的文字（可选）
 
+# logo 都是可选的：把图片放进 assets/images/badges/，再加一行 logo: /assets/images/badges/xxx.png
 education:
-- name: "[Your University]"
-  logo: /assets/images/badges/placeholder.svg
-  dept: "[School / Department]"
-  position: "[Degree, e.g. Ph.D.]"
-  date: "[Start] - present"
-- name: "[Undergraduate University]"
-  logo: /assets/images/badges/placeholder.svg
-  dept: "[School / Department]"
-  position: B.Eng.
-  date: "[Start] - [End]"
+- name: Fudan University
+  dept: College of Future Information Technology
+  position: Master's Student
+  date: Sep. 2024 - present
+- name: Ningbo University
+  dept: Yangming Innovation Class
+  position: Bachelor's Degree
+  date: Sep. 2020 - Jun. 2024
 
 experience:
-- name: "[Company / Lab]"
-  logo: /assets/images/badges/placeholder.svg
+- name: SenseTime Research
+  dept: Foundation Model Team (Coding)
   position: Research Intern
-  date: "[Start] - [End]"
+  # date: Mon. YYYY - Mon. YYYY
+- name: Alibaba Group
+  dept: Taobao & Tmall Group
+  position: Intern
+  # date: Mon. YYYY - Mon. YYYY
 
 awards:
-- name: "[Award Name]"
-  date: "[Year]"
+- name: National Scholarship (Fudan University)
+  # date: YYYY
