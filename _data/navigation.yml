@@ -1,0 +1,10 @@
+pages:
+# NOTE: `name` field must match the `navbar_title` field in the page's front matter to ensure the correct page is highlighted in the navbar.
+#       For example, the `navbar_title` field in `publications.html` is "Publications" and the `name` field here should also be "Publications"
+- name: Home
+  url: /
+- name: Publications
+  url: /publications
+# 想写博客：取消下面两行的注释，然后在 _posts/ 里写 Markdown 文章
+# - name: Blog
+#   url: /blog

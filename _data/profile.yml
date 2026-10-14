@@ -1,0 +1,60 @@
+primary_name: "Yifan Chen"
+secondary_name: ""  # 可选：中文名，会以小字显示在英文名后面
+navbar_name: "Yifan's Homepage"
+
+positions:
+- name: "[Your Position, e.g. Ph.D. Student]"
+  logo: /assets/images/badges/placeholder.svg  # 换成学校/机构的 logo（可选）
+
+
+email: "your@email.com"  # TODO: 换成你想公开的邮箱（页面上会显示成 xxx(at)xxx 防爬虫）
+# cv_link: /assets/files/cv.pdf
+# gscholar: xxxxxxxxxxxx  # Google Scholar 主页链接里 user= 后面那串
+github: cyfxlj
+# twitter: your_twitter_id  # Do not include the '@' symbol
+# linkedin: your-linked-in-id
+# orcid: 0000-0000-0000-0000
+
+short_bio_text_justify: false
+short_bio: >-
+  <p>
+    I'm a [Your Position] at [Your University], advised by Prof. [Advisor Name].
+    Prior to this, I received my bachelor's degree in [Major] from [University].
+  </p>
+  <p>
+    My research interests include, but are not limited to:
+  </p>
+  <ul>
+    <li><strong>LLM Post-training:</strong> Reinforcement Learning for LLMs, Reasoning</li>
+    <li><strong>LLM Agents:</strong> Search Agents, Deep Research</li>
+    <li><strong>3D Vision:</strong> Neural Radiance Fields (NeRF), Mesh Reconstruction</li>
+  </ul>
+  <p>
+    Feel free to reach out if you are interested in my work or would like to collaborate.
+  </p>
+
+portrait_url: /assets/images/photos/portrait.jpg  # TODO: 用你的照片覆盖这个文件
+# portrait_caption: >-
+#   鼠标悬停在照片上时显示的文字（可选）
+
+education:
+- name: "[Your University]"
+  logo: /assets/images/badges/placeholder.svg
+  dept: "[School / Department]"
+  position: "[Degree, e.g. Ph.D.]"
+  date: "[Start] - present"
+- name: "[Undergraduate University]"
+  logo: /assets/images/badges/placeholder.svg
+  dept: "[School / Department]"
+  position: B.Eng.
+  date: "[Start] - [End]"
+
+experience:
+- name: "[Company / Lab]"
+  logo: /assets/images/badges/placeholder.svg
+  position: Research Intern
+  date: "[Start] - [End]"
+
+awards:
+- name: "[Award Name]"
+  date: "[Year]"
