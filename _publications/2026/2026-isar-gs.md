@@ -5,6 +5,7 @@ date:           2026-09-01 00:01:00 +0800
 selected:       true
 pub:            "IEEE Transactions on Aerospace and Electronic Systems (TAES)"
 pub_date:       "2026"
+cover:          /assets/images/covers/isar-gs.jpg
 authors:
   - Yifan Chen
   - Yuntian Liu
